@@ -75,7 +75,7 @@ int main()
     (root->child[2]->child).push_back(newNode(6));
 
     if (secondlargest(root) != NULL){
-        cout<<" Second largest element in the tree is:"<<secondlargest(root)->value <<endl;
+        cout<<" Required second largest element is:"<<secondlargest(root)->value <<endl;
     }
     else{
         cout<<"Not found"<<endl;
