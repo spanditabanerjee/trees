@@ -1,3 +1,6 @@
+//second largest element in n-ary-tree
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -68,11 +71,11 @@ int main()
     (root ->child).push_back(newNode(12));
     (root->child[0]->child).push_back(newNode(20));
     (root->child[1]->child).push_back(newNode(30));
-    (root->child[1]->child).push_back(newNode(4));
+    (root->child[1]->child).push_back(newNode(14));
     (root->child[2]->child).push_back(newNode(6));
 
     if (secondlargest(root) != NULL){
-        cout<<" Second largest element is:"<<secondlargest(root)->value <<endl;
+        cout<<" Second largest element in the tree is:"<<secondlargest(root)->value <<endl;
     }
     else{
         cout<<"Not found"<<endl;
