@@ -58,7 +58,7 @@ int main()
  
     int x = 5;
  
-    cout << "Next larger element of " << x << " is ";
+    cout << "The required Next larger element of " << x << " is ";
     cout << nextLargerElement(root, x)->val << endl;
  
     return 0;
