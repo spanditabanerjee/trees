@@ -98,8 +98,8 @@ int main()
     root->right->right = new Node(8);
  
     if (isSymmetric(root))
-        cout << "Symmetric";
+        cout << "Symmetric tree";
     else
-        cout << "Not Symmetric";
+        cout << "Not Symmetric tree";
     return 0;
 }
