@@ -10,9 +10,9 @@ struct Node {
     Node* left;
     Node* right;
  
-    Node(int val)
+    Node(int value)
     {
-        data = val;
+        data = value;
         left = right = NULL;
     }
 };
