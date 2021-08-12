@@ -53,6 +53,6 @@ int main()
     root->left->right = newNode(7);
     root->left->left->left = newNode(29);
      
-    cout << "Maximum depth of given binary tree is " << maxDepth(root);
+    cout << "Maximum depth of the given binary tree is " << maxDepth(root);
     return 0;
 }
