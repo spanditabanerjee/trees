@@ -63,7 +63,7 @@ class BinaryTree
         tree.root.left.right = new Node(5);
  
        
-        System.out.println("Inorder traversal of input tree is :");
+        System.out.println("Inorder traversal of the input tree is :");
         tree.inOrder();
         System.out.println("");
  
