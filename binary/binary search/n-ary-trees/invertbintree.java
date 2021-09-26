@@ -69,8 +69,6 @@ class BinaryTree
  
        
         tree.invert();
-
-        
  
         
         System.out.println("Inorder traversal of tree after inversion is : ");
