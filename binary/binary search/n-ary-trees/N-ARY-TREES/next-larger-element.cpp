@@ -57,6 +57,7 @@ int main()
     (root->child[2]->child).push_back(newNode(9));
  
     int x = 5;
+    
  
     cout << "The required Next larger element of " << x << " is ";
     cout << nextLargerElement(root, x)->val << endl;
