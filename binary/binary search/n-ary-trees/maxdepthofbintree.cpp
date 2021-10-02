@@ -38,7 +38,6 @@ node* newNode(int data)
     Node->data = data;
     Node->left = NULL;
     Node->right = NULL;
-     
     return(Node);
 }
      
