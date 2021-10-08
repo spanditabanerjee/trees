@@ -42,7 +42,6 @@ node* newNode(int data)
 }
      
 //driver code
-
 int main()
 {
     node *root = newNode(3);
