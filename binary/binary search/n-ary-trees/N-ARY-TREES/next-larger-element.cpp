@@ -56,11 +56,11 @@ int main()
     (root->child[1]->child).push_back(newNode(6));
     (root->child[2]->child).push_back(newNode(9));
  
-    int x = 5;
+    int y = 5;
     
  
-    cout << "The required Next larger element of " << x << " is ";
-    cout << nextLargerElement(root, x)->val << endl;
+    cout << "The required Next larger element of " << y << " is ";
+    cout << nextLargerElement(root, y)->val << endl;
  
     return 0;
 }
