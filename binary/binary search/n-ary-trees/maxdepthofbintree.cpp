@@ -41,7 +41,7 @@ node* newNode(int data)
     return(Node);
 }
      
-//driver code
+
 int main()
 {
     node *root = newNode(3);
